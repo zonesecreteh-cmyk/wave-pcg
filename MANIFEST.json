@@ -1,0 +1,15 @@
+{
+  "version": "2025.1",
+  "packages": [
+    {
+      "code": "PCG_FR_2025",
+      "country": "FR",
+      "locale": "fr_FR",
+      "name": "Plan Comptable Général (France 2025)",
+      "currency": "EUR",
+      "file": "fr/fr_pcg.json",
+      "authority": "Autorité des Normes Comptables (ANC)",
+      "legal_reference": "Règlement ANC n°2014-03"
+    }
+  ]
+}
