@@ -1,0 +1,93 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_AGRICULTURE",
+  "name": "Agriculture et activités agricoles",
+  "naf_codes": [
+    "01",
+    "02",
+    "03"
+  ],
+  "accounts": [
+    {
+      "code": "36100",
+      "name": "Stocks animaux — reproducteurs",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "36200",
+      "name": "Stocks animaux — élevage",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "21850",
+      "name": "Cheptel",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "60110",
+      "name": "Achats d'animaux",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "60120",
+      "name": "Achats d'aliments pour animaux",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "60130",
+      "name": "Achats de semences et plants",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "60140",
+      "name": "Achats d'engrais et amendements",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "60150",
+      "name": "Achats de produits phytosanitaires",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "70100",
+      "name": "Ventes de produits agricoles",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70110",
+      "name": "Ventes d'animaux",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70120",
+      "name": "Ventes de récoltes",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "74810",
+      "name": "Aides PAC (subventions exploitation)",
+      "account_type": "INCOME",
+      "reconcile": false
+    }
+  ]
+}
