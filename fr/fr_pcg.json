@@ -6,414 +6,3943 @@
   "currency": "EUR",
   "version": "2026",
   "authority": "Autorité des Normes Comptables (ANC)",
-  "legal_reference": "Règlement ANC n°2014-03 modifié — version au 1er janvier 2026",
+  "legal_reference": "Règlement ANC n°2014-03 — version au 1er janvier 2026",
   "source": {
     "type": "official",
+    "document": "Plan de comptes prévu à l'article 1121-1 du règlement ANC n°2014-03",
     "url": "https://www.anc.gouv.fr",
-    "note": "Plan de comptes complet — article 1121-1 du règlement ANC n°2014-03"
+    "note": "Plan COMPLET — tous comptes obligatoires (normaux) et optionnels (italiques)"
   },
-  "accounts": [
-
-    {"code": "1011", "name": "Capital souscrit - non appelé",                                   "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1012", "name": "Capital souscrit - appelé, non versé",                             "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1013", "name": "Capital souscrit - appelé, versé",                                 "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1018", "name": "Capital soumis à des réglementations particulières",               "account_type": "EQUITY",    "reconcile": false},
-    {"code": "102",  "name": "Fonds fiduciaires",                                                "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1041", "name": "Primes d'émission",                                                "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1042", "name": "Primes de fusion",                                                 "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1043", "name": "Primes d'apport",                                                  "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1044", "name": "Primes de conversion d'obligations en actions",                    "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1045", "name": "Bons de souscription de titres en capital",                        "account_type": "EQUITY",    "reconcile": false},
-    {"code": "105",  "name": "Écarts de réévaluation",                                           "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1061", "name": "Réserve légale",                                                   "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1062", "name": "Réserves indisponibles",                                           "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1063", "name": "Réserves statutaires ou contractuelles",                           "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1064", "name": "Réserves réglementées",                                            "account_type": "EQUITY",    "reconcile": false},
-    {"code": "1068", "name": "Autres réserves",                                                  "account_type": "EQUITY",    "reconcile": false},
-    {"code": "107",  "name": "Écart d'équivalence",                                              "account_type": "EQUITY",    "reconcile": false},
-    {"code": "108",  "name": "Compte de l'exploitant",                                           "account_type": "EQUITY",    "reconcile": false},
-    {"code": "109",  "name": "Actionnaires : capital souscrit - non appelé",                     "account_type": "EQUITY",    "reconcile": false},
-    {"code": "110",  "name": "Report à nouveau - solde créditeur",                               "account_type": "EQUITY",    "reconcile": false},
-    {"code": "119",  "name": "Report à nouveau - solde débiteur",                                "account_type": "EQUITY",    "reconcile": false},
-    {"code": "120",  "name": "Résultat de l'exercice - bénéfice",                                "account_type": "EQUITY",    "reconcile": false},
-    {"code": "129",  "name": "Résultat de l'exercice - perte",                                   "account_type": "EQUITY",    "reconcile": false},
-    {"code": "131",  "name": "Subventions d'investissement octroyées",                           "account_type": "EQUITY",    "reconcile": false},
-    {"code": "139",  "name": "Subventions d'investissement inscrites au compte de résultat",     "account_type": "EQUITY",    "reconcile": false},
-    {"code": "143",  "name": "Provisions réglementées pour hausse de prix",                      "account_type": "LIABILITY", "reconcile": false},
-    {"code": "145",  "name": "Amortissements dérogatoires",                                      "account_type": "LIABILITY", "reconcile": false},
-    {"code": "148",  "name": "Autres provisions réglementées",                                   "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1511", "name": "Provisions pour litiges",                                          "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1512", "name": "Provisions pour garanties données aux clients",                    "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1514", "name": "Provisions pour amendes et pénalités",                             "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1515", "name": "Provisions pour pertes de change",                                 "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1516", "name": "Provisions pour pertes sur contrats",                              "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1518", "name": "Autres provisions pour risques",                                   "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1521", "name": "Provisions pour pensions et obligations similaires",               "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1522", "name": "Provisions pour restructurations",                                 "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1523", "name": "Provisions pour impôts",                                           "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1525", "name": "Provisions pour gros entretien ou grandes révisions",              "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1526", "name": "Provisions pour remise en état",                                   "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1527", "name": "Autres provisions pour charges",                                   "account_type": "LIABILITY", "reconcile": false},
-    {"code": "161",  "name": "Emprunts obligataires convertibles",                               "account_type": "LIABILITY", "reconcile": false},
-    {"code": "163",  "name": "Autres emprunts obligataires",                                     "account_type": "LIABILITY", "reconcile": false},
-    {"code": "164",  "name": "Emprunts auprès des établissements de crédit",                     "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1648", "name": "Intérêts courus sur emprunts",                                     "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1651", "name": "Dépôts reçus",                                                     "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1655", "name": "Cautionnements reçus",                                             "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1661", "name": "Participation des salariés - comptes bloqués",                     "account_type": "LIABILITY", "reconcile": false},
-    {"code": "1662", "name": "Fonds de participation",                                           "account_type": "LIABILITY", "reconcile": false},
-    {"code": "167",  "name": "Fonds non remboursables et avances conditionnées",                 "account_type": "LIABILITY", "reconcile": false},
-    {"code": "168",  "name": "Autres emprunts et dettes assimilées",                             "account_type": "LIABILITY", "reconcile": false},
-    {"code": "169",  "name": "Primes de remboursement des emprunts",                             "account_type": "LIABILITY", "reconcile": false},
-    {"code": "171",  "name": "Dettes rattachées à des participations - groupe",                  "account_type": "LIABILITY", "reconcile": false},
-    {"code": "174",  "name": "Dettes rattachées à des participations - hors groupe",             "account_type": "LIABILITY", "reconcile": false},
-
-    {"code": "201",  "name": "Frais d'établissement",                                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "203",  "name": "Frais de développement",                                           "account_type": "ASSET",     "reconcile": false},
-    {"code": "205",  "name": "Concessions, brevets, licences, marques, solutions informatiques", "account_type": "ASSET",     "reconcile": false},
-    {"code": "206",  "name": "Droit au bail",                                                    "account_type": "ASSET",     "reconcile": false},
-    {"code": "207",  "name": "Fonds commercial",                                                 "account_type": "ASSET",     "reconcile": false},
-    {"code": "208",  "name": "Autres immobilisations incorporelles",                             "account_type": "ASSET",     "reconcile": false},
-    {"code": "211",  "name": "Terrains",                                                         "account_type": "ASSET",     "reconcile": false},
-    {"code": "212",  "name": "Agencements et aménagements de terrains",                          "account_type": "ASSET",     "reconcile": false},
-    {"code": "213",  "name": "Constructions",                                                    "account_type": "ASSET",     "reconcile": false},
-    {"code": "214",  "name": "Constructions sur sol d'autrui",                                   "account_type": "ASSET",     "reconcile": false},
-    {"code": "2151", "name": "Installations complexes spécialisées",                             "account_type": "ASSET",     "reconcile": false},
-    {"code": "2154", "name": "Matériels industriels",                                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "2155", "name": "Outillages industriels",                                           "account_type": "ASSET",     "reconcile": false},
-    {"code": "2181", "name": "Installations générales, agencements, aménagements divers",        "account_type": "ASSET",     "reconcile": false},
-    {"code": "2182", "name": "Matériel de transport",                                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "2183", "name": "Matériel de bureau et matériel informatique",                      "account_type": "ASSET",     "reconcile": false},
-    {"code": "2184", "name": "Mobilier",                                                         "account_type": "ASSET",     "reconcile": false},
-    {"code": "231",  "name": "Immobilisations corporelles en cours",                             "account_type": "ASSET",     "reconcile": false},
-    {"code": "232",  "name": "Immobilisations incorporelles en cours",                           "account_type": "ASSET",     "reconcile": false},
-    {"code": "238",  "name": "Avances et acomptes sur commandes d'immobilisations corporelles",  "account_type": "ASSET",     "reconcile": false},
-    {"code": "261",  "name": "Titres de participation",                                          "account_type": "ASSET",     "reconcile": false},
-    {"code": "267",  "name": "Créances rattachées à des participations",                         "account_type": "ASSET",     "reconcile": false},
-    {"code": "271",  "name": "Titres immobilisés (droit de propriété)",                          "account_type": "ASSET",     "reconcile": false},
-    {"code": "272",  "name": "Titres immobilisés (droit de créance)",                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "273",  "name": "Titres immobilisés de l'activité de portefeuille",                 "account_type": "ASSET",     "reconcile": false},
-    {"code": "274",  "name": "Prêts",                                                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "275",  "name": "Dépôts et cautionnements versés",                                  "account_type": "ASSET",     "reconcile": false},
-    {"code": "276",  "name": "Autres créances immobilisées",                                     "account_type": "ASSET",     "reconcile": false},
-    {"code": "2803", "name": "Amortissements frais de développement",                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "2805", "name": "Amortissements concessions et droits similaires",                  "account_type": "ASSET",     "reconcile": false},
-    {"code": "2807", "name": "Amortissements fonds commercial",                                  "account_type": "ASSET",     "reconcile": false},
-    {"code": "2812", "name": "Amortissements agencements de terrains",                           "account_type": "ASSET",     "reconcile": false},
-    {"code": "2813", "name": "Amortissements constructions",                                     "account_type": "ASSET",     "reconcile": false},
-    {"code": "2815", "name": "Amortissements installations techniques et outillages",            "account_type": "ASSET",     "reconcile": false},
-    {"code": "2818", "name": "Amortissements autres immobilisations corporelles",                "account_type": "ASSET",     "reconcile": false},
-    {"code": "2905", "name": "Dépréciations marques, procédés et droits similaires",             "account_type": "ASSET",     "reconcile": false},
-    {"code": "2907", "name": "Dépréciations fonds commercial",                                   "account_type": "ASSET",     "reconcile": false},
-    {"code": "2911", "name": "Dépréciations terrains",                                           "account_type": "ASSET",     "reconcile": false},
-    {"code": "2913", "name": "Dépréciations constructions",                                      "account_type": "ASSET",     "reconcile": false},
-    {"code": "2915", "name": "Dépréciations installations techniques et outillages",             "account_type": "ASSET",     "reconcile": false},
-    {"code": "2918", "name": "Dépréciations autres immobilisations corporelles",                 "account_type": "ASSET",     "reconcile": false},
-    {"code": "2931", "name": "Dépréciations immobilisations corporelles en cours",               "account_type": "ASSET",     "reconcile": false},
-    {"code": "2961", "name": "Dépréciations titres de participation",                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "2974", "name": "Dépréciations prêts",                                              "account_type": "ASSET",     "reconcile": false},
-
-    {"code": "31",   "name": "Matières premières et fournitures",                                "account_type": "ASSET",     "reconcile": false},
-    {"code": "321",  "name": "Matières consommables",                                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "322",  "name": "Fournitures consommables",                                         "account_type": "ASSET",     "reconcile": false},
-    {"code": "326",  "name": "Emballages",                                                       "account_type": "ASSET",     "reconcile": false},
-    {"code": "331",  "name": "Produits en cours",                                                "account_type": "ASSET",     "reconcile": false},
-    {"code": "335",  "name": "Travaux en cours",                                                 "account_type": "ASSET",     "reconcile": false},
-    {"code": "341",  "name": "Études en cours",                                                  "account_type": "ASSET",     "reconcile": false},
-    {"code": "345",  "name": "Prestations de services en cours",                                 "account_type": "ASSET",     "reconcile": false},
-    {"code": "351",  "name": "Produits intermédiaires",                                          "account_type": "ASSET",     "reconcile": false},
-    {"code": "355",  "name": "Produits finis",                                                   "account_type": "ASSET",     "reconcile": false},
-    {"code": "358",  "name": "Produits résiduels ou matières de récupération",                   "account_type": "ASSET",     "reconcile": false},
-    {"code": "37",   "name": "Stocks de marchandises",                                           "account_type": "ASSET",     "reconcile": false},
-    {"code": "391",  "name": "Dépréciations matières premières et fournitures",                  "account_type": "ASSET",     "reconcile": false},
-    {"code": "392",  "name": "Dépréciations autres approvisionnements",                          "account_type": "ASSET",     "reconcile": false},
-    {"code": "395",  "name": "Dépréciations stocks de produits",                                 "account_type": "ASSET",     "reconcile": false},
-    {"code": "397",  "name": "Dépréciations stocks de marchandises",                             "account_type": "ASSET",     "reconcile": false},
-
-    {"code": "401",  "name": "Fournisseurs",                                                     "account_type": "PAYABLE",   "reconcile": true},
-    {"code": "4017", "name": "Fournisseurs - Retenues de garantie",                              "account_type": "PAYABLE",   "reconcile": true},
-    {"code": "403",  "name": "Fournisseurs - Effets à payer",                                    "account_type": "PAYABLE",   "reconcile": true},
-    {"code": "404",  "name": "Fournisseurs d'immobilisations",                                   "account_type": "PAYABLE",   "reconcile": true},
-    {"code": "405",  "name": "Fournisseurs d'immobilisations - Effets à payer",                  "account_type": "PAYABLE",   "reconcile": true},
-    {"code": "408",  "name": "Fournisseurs - Factures non parvenues",                            "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4091", "name": "Fournisseurs - Avances et acomptes versés",                        "account_type": "ASSET",     "reconcile": false},
-    {"code": "4097", "name": "Fournisseurs - Autres avoirs",                                     "account_type": "ASSET",     "reconcile": false},
-    {"code": "4098", "name": "Rabais, remises, ristournes à obtenir",                            "account_type": "ASSET",     "reconcile": false},
-    {"code": "411",  "name": "Clients",                                                          "account_type": "RECEIVABLE","reconcile": true},
-    {"code": "4117", "name": "Clients - Retenues de garantie",                                   "account_type": "RECEIVABLE","reconcile": true},
-    {"code": "413",  "name": "Clients - Effets à recevoir",                                      "account_type": "RECEIVABLE","reconcile": true},
-    {"code": "416",  "name": "Clients douteux ou litigieux",                                     "account_type": "RECEIVABLE","reconcile": true},
-    {"code": "418",  "name": "Clients - Produits non encore facturés",                           "account_type": "RECEIVABLE","reconcile": false},
-    {"code": "4191", "name": "Clients - Avances et acomptes reçus",                              "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4198", "name": "Rabais, remises, ristournes à accorder",                           "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "421",  "name": "Personnel - Rémunérations dues",                                   "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "422",  "name": "Comité social et économique",                                      "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "424",  "name": "Participation des salariés aux résultats",                         "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "425",  "name": "Personnel - Avances et acomptes",                                  "account_type": "ASSET",     "reconcile": false},
-    {"code": "426",  "name": "Personnel - Dépôts",                                               "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "427",  "name": "Personnel - Oppositions",                                          "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4282", "name": "Dettes provisionnées pour congés à payer",                         "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4284", "name": "Dettes provisionnées pour participation salariés",                 "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4286", "name": "Autres charges à payer - personnel",                               "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "431",  "name": "Sécurité sociale",                                                 "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "437",  "name": "Autres organismes sociaux",                                        "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4382", "name": "Charges sociales sur congés à payer",                              "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4386", "name": "Autres charges à payer - organismes sociaux",                      "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4421", "name": "Prélèvements à la source (IR)",                                    "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "441",  "name": "État - Subventions et aides à recevoir",                           "account_type": "RECEIVABLE","reconcile": false},
-    {"code": "444",  "name": "État - Impôts sur les bénéfices",                                  "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4452", "name": "TVA due intracommunautaire",                                       "account_type": "TAX",       "reconcile": false},
-    {"code": "44551","name": "TVA à décaisser",                                                  "account_type": "TAX",       "reconcile": false},
-    {"code": "44562","name": "TVA sur immobilisations",                                          "account_type": "TAX",       "reconcile": false},
-    {"code": "44566","name": "TVA sur autres biens et services",                                 "account_type": "TAX",       "reconcile": false},
-    {"code": "44567","name": "Crédit de TVA à reporter",                                         "account_type": "TAX",       "reconcile": false},
-    {"code": "44571","name": "TVA collectée",                                                    "account_type": "TAX",       "reconcile": false},
-    {"code": "44581","name": "Acomptes - Régime simplifié d'imposition",                         "account_type": "TAX",       "reconcile": false},
-    {"code": "44583","name": "Remboursement de TVA demandé",                                     "account_type": "TAX",       "reconcile": false},
-    {"code": "446",  "name": "Obligations cautionnées",                                          "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "447",  "name": "Autres impôts, taxes et versements assimilés",                     "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4481", "name": "État - Charges à payer",                                           "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "4482", "name": "État - Produits à recevoir",                                       "account_type": "RECEIVABLE","reconcile": false},
-    {"code": "449",  "name": "Quotas d'émission à acquérir",                                     "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "451",  "name": "Groupe",                                                           "account_type": "OTHER",     "reconcile": true},
-    {"code": "4551", "name": "Associés - Comptes courants (principal)",                          "account_type": "OTHER",     "reconcile": true},
-    {"code": "4558", "name": "Associés - Intérêts courus sur comptes courants",                  "account_type": "OTHER",     "reconcile": false},
-    {"code": "456",  "name": "Associés - Opérations sur le capital",                             "account_type": "EQUITY",    "reconcile": false},
-    {"code": "457",  "name": "Associés - Dividendes à payer",                                    "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "462",  "name": "Créances sur cessions d'immobilisations",                          "account_type": "RECEIVABLE","reconcile": false},
-    {"code": "467",  "name": "Divers comptes débiteurs et produits à recevoir",                  "account_type": "RECEIVABLE","reconcile": false},
-    {"code": "468",  "name": "Divers comptes créditeurs et charges à payer",                     "account_type": "PAYABLE",   "reconcile": false},
-    {"code": "471",  "name": "Comptes d'attente",                                                "account_type": "OTHER",     "reconcile": false},
-    {"code": "476",  "name": "Différences de conversion - Actif",                                "account_type": "ASSET",     "reconcile": false},
-    {"code": "477",  "name": "Différences de conversion - Passif",                               "account_type": "LIABILITY", "reconcile": false},
-    {"code": "481",  "name": "Frais d'émission des emprunts",                                    "account_type": "ASSET",     "reconcile": false},
-    {"code": "486",  "name": "Charges constatées d'avance",                                      "account_type": "ASSET",     "reconcile": false},
-    {"code": "487",  "name": "Produits constatés d'avance",                                      "account_type": "LIABILITY", "reconcile": false},
-    {"code": "491",  "name": "Dépréciations des comptes clients",                                "account_type": "RECEIVABLE","reconcile": false},
-    {"code": "495",  "name": "Dépréciations des comptes du groupe et associés",                  "account_type": "OTHER",     "reconcile": false},
-    {"code": "496",  "name": "Dépréciations des comptes de débiteurs divers",                    "account_type": "OTHER",     "reconcile": false},
-
-    {"code": "502",  "name": "Actions propres",                                                  "account_type": "ASSET",     "reconcile": false},
-    {"code": "503",  "name": "Actions",                                                          "account_type": "ASSET",     "reconcile": false},
-    {"code": "504",  "name": "Autres titres conférant un droit de propriété",                    "account_type": "ASSET",     "reconcile": false},
-    {"code": "506",  "name": "Obligations",                                                      "account_type": "ASSET",     "reconcile": false},
-    {"code": "507",  "name": "Bons du Trésor et bons de caisse à court terme",                   "account_type": "ASSET",     "reconcile": false},
-    {"code": "508",  "name": "Autres valeurs mobilières de placement",                           "account_type": "ASSET",     "reconcile": false},
-    {"code": "5112", "name": "Chèques à encaisser",                                              "account_type": "ASSET",     "reconcile": false},
-    {"code": "5113", "name": "Effets à l'encaissement",                                          "account_type": "ASSET",     "reconcile": false},
-    {"code": "512",  "name": "Banques",                                                          "account_type": "BANK",      "reconcile": false},
-    {"code": "5121", "name": "Comptes bancaires en euros",                                       "account_type": "BANK",      "reconcile": false},
-    {"code": "5124", "name": "Comptes bancaires en devises",                                     "account_type": "BANK",      "reconcile": false},
-    {"code": "514",  "name": "Chèques postaux (CCP)",                                            "account_type": "BANK",      "reconcile": false},
-    {"code": "517",  "name": "Autres organismes financiers",                                     "account_type": "BANK",      "reconcile": false},
-    {"code": "5181", "name": "Intérêts courus à payer",                                          "account_type": "LIABILITY", "reconcile": false},
-    {"code": "5188", "name": "Intérêts courus à recevoir",                                       "account_type": "ASSET",     "reconcile": false},
-    {"code": "519",  "name": "Concours bancaires courants",                                      "account_type": "LIABILITY", "reconcile": false},
-    {"code": "53",   "name": "Caisse",                                                           "account_type": "BANK",      "reconcile": false},
-    {"code": "58",   "name": "Virements internes",                                               "account_type": "OTHER",     "reconcile": false},
-    {"code": "590",  "name": "Dépréciations des valeurs mobilières de placement",                "account_type": "ASSET",     "reconcile": false},
-
-    {"code": "601",  "name": "Achats stockés - Matières premières et fournitures",               "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6021", "name": "Matières consommables",                                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6022", "name": "Fournitures consommables",                                         "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6026", "name": "Emballages",                                                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "604",  "name": "Achats d'études et prestations de services",                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "605",  "name": "Achats de matériel, équipements et travaux",                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6061", "name": "Fournitures non stockables (eau, énergie)",                        "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6063", "name": "Fournitures d'entretien et de petit équipement",                   "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6064", "name": "Fournitures administratives",                                      "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "607",  "name": "Achats de marchandises",                                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6031", "name": "Variation des stocks de matières premières",                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6037", "name": "Variation des stocks de marchandises",                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "611",  "name": "Sous-traitance générale",                                          "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6122", "name": "Redevances de crédit-bail mobilier",                               "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6125", "name": "Redevances de crédit-bail immobilier",                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6132", "name": "Locations immobilières",                                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6135", "name": "Locations mobilières",                                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "614",  "name": "Charges locatives et de copropriété",                              "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6152", "name": "Entretien et réparation sur biens immobiliers",                    "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6155", "name": "Entretien et réparation sur biens mobiliers",                      "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6156", "name": "Maintenance",                                                      "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6161", "name": "Assurances multirisques",                                          "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6162", "name": "Assurance obligatoire dommage construction",                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6163", "name": "Assurance - transport",                                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6164", "name": "Assurance risques d'exploitation",                                 "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "617",  "name": "Études et recherches",                                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6181", "name": "Documentation générale",                                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6185", "name": "Frais de colloques, séminaires, conférences",                      "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "621",  "name": "Personnel extérieur à l'entité",                                   "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6221", "name": "Commissions et courtages sur achats",                              "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6222", "name": "Commissions et courtages sur ventes",                              "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6226", "name": "Honoraires",                                                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6227", "name": "Frais d'actes et de contentieux",                                  "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6231", "name": "Annonces et insertions publicitaires",                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6233", "name": "Foires et expositions",                                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6234", "name": "Cadeaux à la clientèle",                                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6237", "name": "Publications",                                                     "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6241", "name": "Transports sur achats",                                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6242", "name": "Transports sur ventes",                                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6247", "name": "Transports collectifs du personnel",                               "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6251", "name": "Voyages et déplacements",                                          "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6256", "name": "Missions",                                                         "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6257", "name": "Réceptions",                                                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "626",  "name": "Frais postaux et de télécommunications",                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6271", "name": "Frais sur titres",                                                 "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6275", "name": "Frais sur effets",                                                 "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6278", "name": "Autres frais et commissions bancaires",                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6281", "name": "Concours divers (cotisations)",                                    "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6284", "name": "Frais de recrutement de personnel",                                "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6311", "name": "Taxe sur les salaires",                                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6331", "name": "Versement de transport",                                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6333", "name": "Contribution à la formation professionnelle",                      "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6334", "name": "Participation à l'effort de construction",                         "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "63511","name": "Contribution économique territoriale (CET)",                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "63512","name": "Taxes foncières",                                                  "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "63514","name": "Taxe sur les véhicules des sociétés",                              "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6354", "name": "Droits d'enregistrement et de timbre",                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "638",  "name": "Rappel d'impôts (hors IS)",                                        "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6411", "name": "Salaires et appointements",                                        "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6412", "name": "Congés payés",                                                     "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6413", "name": "Primes et gratifications",                                         "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6414", "name": "Indemnités et avantages divers",                                   "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "644",  "name": "Rémunération du travail de l'exploitant",                          "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6451", "name": "Cotisations à l'Urssaf",                                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6452", "name": "Cotisations aux mutuelles",                                        "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6453", "name": "Cotisations aux caisses de retraites",                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6454", "name": "Cotisations à Pôle emploi (France Travail)",                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6458", "name": "Cotisations aux autres organismes sociaux",                        "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "646",  "name": "Cotisations sociales personnelles de l'exploitant",                "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6471", "name": "Prestations directes",                                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6472", "name": "Versements au comité social et économique",                        "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6475", "name": "Médecine du travail, pharmacie",                                   "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "648",  "name": "Autres charges de personnel",                                      "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6511", "name": "Redevances pour concessions, brevets, licences",                   "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6516", "name": "Droits d'auteur et de reproduction",                               "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "654",  "name": "Pertes sur créances irrécouvrables",                               "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "655",  "name": "Quote-part de résultat sur opérations faites en commun",           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "656",  "name": "Pertes de change sur créances et dettes commerciales",             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "657",  "name": "Valeurs comptables des immobilisations cédées",                    "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6581", "name": "Pénalités sur marchés",                                            "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6582", "name": "Pénalités, amendes fiscales et pénales",                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6611", "name": "Intérêts des emprunts et dettes",                                  "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6615", "name": "Intérêts des comptes courants et dépôts",                          "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6616", "name": "Intérêts bancaires et sur opérations de financement",              "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "665",  "name": "Escomptes accordés",                                               "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "666",  "name": "Pertes de change financières",                                     "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6671", "name": "Valeurs comptables des immobilisations financières cédées",        "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6673", "name": "Charges nettes sur cessions de valeurs mobilières",                "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "668",  "name": "Autres charges financières",                                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "678",  "name": "Autres charges exceptionnelles",                                   "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6811", "name": "Dotations aux amortissements des immobilisations",                 "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6815", "name": "Dotations aux provisions d'exploitation",                          "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6816", "name": "Dotations pour dépréciations des immobilisations",                 "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6817", "name": "Dotations pour dépréciations des actifs circulants",               "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6865", "name": "Dotations aux provisions financières",                             "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6866", "name": "Dotations pour dépréciation des éléments financiers",              "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6871", "name": "Dotations aux amortissements exceptionnels",                       "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6872", "name": "Dotations aux provisions réglementées - immobilisations",          "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6875", "name": "Dotations aux provisions exceptionnelles",                         "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "691",  "name": "Participation des salariés aux résultats",                         "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "695",  "name": "Impôts sur les bénéfices",                                         "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "6951", "name": "Impôts sur les bénéfices dus en France",                           "account_type": "EXPENSE",   "reconcile": false},
-    {"code": "699",  "name": "Produits - Reports en arrière des déficits",                       "account_type": "EXPENSE",   "reconcile": false},
-
-    {"code": "701",  "name": "Ventes de produits finis",                                         "account_type": "INCOME",    "reconcile": false},
-    {"code": "702",  "name": "Ventes de produits intermédiaires",                                "account_type": "INCOME",    "reconcile": false},
-    {"code": "703",  "name": "Ventes de produits résiduels",                                     "account_type": "INCOME",    "reconcile": false},
-    {"code": "704",  "name": "Travaux",                                                          "account_type": "INCOME",    "reconcile": false},
-    {"code": "705",  "name": "Études",                                                           "account_type": "INCOME",    "reconcile": false},
-    {"code": "706",  "name": "Prestations de services",                                          "account_type": "INCOME",    "reconcile": false},
-    {"code": "707",  "name": "Ventes de marchandises",                                           "account_type": "INCOME",    "reconcile": false},
-    {"code": "7081", "name": "Produits des services exploités pour le personnel",                "account_type": "INCOME",    "reconcile": false},
-    {"code": "7082", "name": "Commissions et courtages reçus",                                   "account_type": "INCOME",    "reconcile": false},
-    {"code": "7083", "name": "Locations diverses",                                               "account_type": "INCOME",    "reconcile": false},
-    {"code": "7085", "name": "Ports et frais accessoires facturés",                              "account_type": "INCOME",    "reconcile": false},
-    {"code": "7087", "name": "Bonifications obtenues et primes sur ventes",                      "account_type": "INCOME",    "reconcile": false},
-    {"code": "7133", "name": "Variation des en-cours de production de biens",                    "account_type": "INCOME",    "reconcile": false},
-    {"code": "7135", "name": "Variation des stocks de produits",                                 "account_type": "INCOME",    "reconcile": false},
-    {"code": "721",  "name": "Production immobilisée - incorporelle",                            "account_type": "INCOME",    "reconcile": false},
-    {"code": "722",  "name": "Production immobilisée - corporelle",                              "account_type": "INCOME",    "reconcile": false},
-    {"code": "741",  "name": "Subventions d'exploitation",                                       "account_type": "INCOME",    "reconcile": false},
-    {"code": "742",  "name": "Subventions d'équilibre",                                          "account_type": "INCOME",    "reconcile": false},
-    {"code": "747",  "name": "Quote-part des subventions d'investissement virée au résultat",    "account_type": "INCOME",    "reconcile": false},
-    {"code": "7511", "name": "Redevances pour concessions, brevets, licences",                   "account_type": "INCOME",    "reconcile": false},
-    {"code": "7516", "name": "Droits d'auteur et de reproduction",                               "account_type": "INCOME",    "reconcile": false},
-    {"code": "752",  "name": "Revenus des immeubles non affectés aux activités",                 "account_type": "INCOME",    "reconcile": false},
-    {"code": "754",  "name": "Ristournes perçues des coopératives",                              "account_type": "INCOME",    "reconcile": false},
-    {"code": "755",  "name": "Quote-part de résultat sur opérations faites en commun",           "account_type": "INCOME",    "reconcile": false},
-    {"code": "756",  "name": "Gains de change sur créances et dettes commerciales",              "account_type": "INCOME",    "reconcile": false},
-    {"code": "757",  "name": "Produits des cessions d'immobilisations",                          "account_type": "INCOME",    "reconcile": false},
-    {"code": "7581", "name": "Dédits et pénalités perçus",                                       "account_type": "INCOME",    "reconcile": false},
-    {"code": "7583", "name": "Rentrées sur créances amorties",                                   "account_type": "INCOME",    "reconcile": false},
-    {"code": "7584", "name": "Dégrèvements d'impôts",                                            "account_type": "INCOME",    "reconcile": false},
-    {"code": "7587", "name": "Indemnités d'assurance",                                           "account_type": "INCOME",    "reconcile": false},
-    {"code": "7611", "name": "Revenus des titres de participation",                              "account_type": "INCOME",    "reconcile": false},
-    {"code": "7617", "name": "Revenus des créances rattachées à des participations",             "account_type": "INCOME",    "reconcile": false},
-    {"code": "762",  "name": "Produits des autres immobilisations financières",                  "account_type": "INCOME",    "reconcile": false},
-    {"code": "763",  "name": "Revenus des autres créances",                                      "account_type": "INCOME",    "reconcile": false},
-    {"code": "764",  "name": "Revenus des valeurs mobilières de placement",                      "account_type": "INCOME",    "reconcile": false},
-    {"code": "765",  "name": "Escomptes obtenus",                                                "account_type": "INCOME",    "reconcile": false},
-    {"code": "766",  "name": "Gains de change financiers",                                       "account_type": "INCOME",    "reconcile": false},
-    {"code": "7671", "name": "Produits des cessions d'immobilisations financières",              "account_type": "INCOME",    "reconcile": false},
-    {"code": "7673", "name": "Produits nets sur cessions de valeurs mobilières",                 "account_type": "INCOME",    "reconcile": false},
-    {"code": "768",  "name": "Autres produits financiers",                                       "account_type": "INCOME",    "reconcile": false},
-    {"code": "778",  "name": "Autres produits exceptionnels",                                    "account_type": "INCOME",    "reconcile": false},
-    {"code": "7811", "name": "Reprises sur amortissements des immobilisations",                  "account_type": "INCOME",    "reconcile": false},
-    {"code": "7815", "name": "Reprises sur provisions d'exploitation",                           "account_type": "INCOME",    "reconcile": false},
-    {"code": "7816", "name": "Reprises sur dépréciations des immobilisations",                   "account_type": "INCOME",    "reconcile": false},
-    {"code": "7817", "name": "Reprises sur dépréciations des actifs circulants",                 "account_type": "INCOME",    "reconcile": false},
-    {"code": "7865", "name": "Reprises sur provisions financières",                              "account_type": "INCOME",    "reconcile": false},
-    {"code": "7866", "name": "Reprises sur dépréciations des éléments financiers",               "account_type": "INCOME",    "reconcile": false},
-    {"code": "7872", "name": "Reprises sur provisions réglementées - immobilisations",           "account_type": "INCOME",    "reconcile": false},
-    {"code": "7875", "name": "Reprises sur provisions exceptionnelles",                          "account_type": "INCOME",    "reconcile": false},
-    {"code": "791",  "name": "Transferts de charges d'exploitation",                             "account_type": "INCOME",    "reconcile": false},
-    {"code": "796",  "name": "Transferts de charges financières",                                "account_type": "INCOME",    "reconcile": false},
-    {"code": "797",  "name": "Transferts de charges exceptionnelles",                            "account_type": "INCOME",    "reconcile": false}
-  ],
-
   "journals": [
-    {"code": "VT", "name": "Ventes",              "type": "SALE",     "default_account": "411"},
-    {"code": "AC", "name": "Achats",              "type": "PURCHASE", "default_account": "401"},
-    {"code": "BQ", "name": "Banque",              "type": "BANK",     "default_account": "512"},
-    {"code": "CA", "name": "Caisse",              "type": "CASH",     "default_account": "53"},
-    {"code": "OD", "name": "Opérations Diverses", "type": "GENERAL",  "default_account": null},
-    {"code": "NF", "name": "Notes de frais",      "type": "PURCHASE", "default_account": "401"},
-    {"code": "SA", "name": "Salaires",            "type": "GENERAL",  "default_account": "421"},
-    {"code": "AN", "name": "À-nouveaux",          "type": "GENERAL",  "default_account": null}
+    {
+      "code": "VT",
+      "name": "Ventes",
+      "type": "SALE",
+      "default_account": "4111"
+    },
+    {
+      "code": "AC",
+      "name": "Achats",
+      "type": "PURCHASE",
+      "default_account": "4011"
+    },
+    {
+      "code": "BQ",
+      "name": "Banque",
+      "type": "BANK",
+      "default_account": "5121"
+    },
+    {
+      "code": "CA",
+      "name": "Caisse",
+      "type": "CASH",
+      "default_account": "53"
+    },
+    {
+      "code": "OD",
+      "name": "Opérations Diverses",
+      "type": "GENERAL",
+      "default_account": null
+    },
+    {
+      "code": "NF",
+      "name": "Notes de frais",
+      "type": "PURCHASE",
+      "default_account": "4011"
+    },
+    {
+      "code": "SA",
+      "name": "Salaires",
+      "type": "GENERAL",
+      "default_account": "421"
+    },
+    {
+      "code": "AN",
+      "name": "À-nouveaux",
+      "type": "GENERAL",
+      "default_account": null
+    },
+    {
+      "code": "EX",
+      "name": "Exercice précédent",
+      "type": "GENERAL",
+      "default_account": null
+    }
   ],
-
   "taxes": [
-    {"name": "TVA 20%",              "amount": 20.0, "type": "SALES",    "rule": "TVA_FR_20",   "account": "44571", "refund_account": "44566"},
-    {"name": "TVA 10%",              "amount": 10.0, "type": "SALES",    "rule": "TVA_FR_10",   "account": "44571", "refund_account": "44566"},
-    {"name": "TVA 5.5%",             "amount": 5.5,  "type": "SALES",    "rule": "TVA_FR_5_5",  "account": "44571", "refund_account": "44566"},
-    {"name": "TVA 2.1%",             "amount": 2.1,  "type": "SALES",    "rule": "TVA_FR_2_1",  "account": "44571", "refund_account": "44566"},
-    {"name": "TVA 0% (export)",      "amount": 0.0,  "type": "SALES",    "rule": "TVA_FR_0",    "account": "44571", "refund_account": "44566"},
-    {"name": "TVA 20% achat",        "amount": 20.0, "type": "PURCHASE", "rule": "TVA_FR_A_20", "account": "44566", "refund_account": "44571"},
-    {"name": "TVA 10% achat",        "amount": 10.0, "type": "PURCHASE", "rule": "TVA_FR_A_10", "account": "44566", "refund_account": "44571"},
-    {"name": "TVA 5.5% achat",       "amount": 5.5,  "type": "PURCHASE", "rule": "TVA_FR_A_5_5","account": "44566", "refund_account": "44571"},
-    {"name": "TVA immo 20%",         "amount": 20.0, "type": "PURCHASE", "rule": "TVA_FR_IMMO", "account": "44562", "refund_account": "44571"}
+    {
+      "name": "TVA 20% ventes",
+      "amount": 20.0,
+      "type": "SALES",
+      "rule": "TVA_FR_20",
+      "account": "44571",
+      "refund_account": "44566"
+    },
+    {
+      "name": "TVA 10% ventes",
+      "amount": 10.0,
+      "type": "SALES",
+      "rule": "TVA_FR_10",
+      "account": "44571",
+      "refund_account": "44566"
+    },
+    {
+      "name": "TVA 5.5% ventes",
+      "amount": 5.5,
+      "type": "SALES",
+      "rule": "TVA_FR_5_5",
+      "account": "44571",
+      "refund_account": "44566"
+    },
+    {
+      "name": "TVA 2.1% ventes",
+      "amount": 2.1,
+      "type": "SALES",
+      "rule": "TVA_FR_2_1",
+      "account": "44571",
+      "refund_account": "44566"
+    },
+    {
+      "name": "TVA 0% export",
+      "amount": 0.0,
+      "type": "SALES",
+      "rule": "TVA_FR_0",
+      "account": "44571",
+      "refund_account": "44566"
+    },
+    {
+      "name": "TVA 20% achats",
+      "amount": 20.0,
+      "type": "PURCHASE",
+      "rule": "TVA_FR_A_20",
+      "account": "44566",
+      "refund_account": "44571"
+    },
+    {
+      "name": "TVA 10% achats",
+      "amount": 10.0,
+      "type": "PURCHASE",
+      "rule": "TVA_FR_A_10",
+      "account": "44566",
+      "refund_account": "44571"
+    },
+    {
+      "name": "TVA 5.5% achats",
+      "amount": 5.5,
+      "type": "PURCHASE",
+      "rule": "TVA_FR_A_5_5",
+      "account": "44566",
+      "refund_account": "44571"
+    },
+    {
+      "name": "TVA 20% immobilisations",
+      "amount": 20.0,
+      "type": "PURCHASE",
+      "rule": "TVA_FR_IMMO",
+      "account": "44562",
+      "refund_account": "44551"
+    }
   ],
-
-  "genome_extensions": {
-    "101":   {"genome_account_group": "EQUITY_CORE",       "reality_shield_default": false, "genome_simulation_exclude": false},
-    "411":   {"genome_account_group": "TRADE_RECEIVABLE",  "reality_shield_default": true,  "genome_simulation_exclude": false},
-    "401":   {"genome_account_group": "TRADE_PAYABLE",     "reality_shield_default": true,  "genome_simulation_exclude": false},
-    "512":   {"genome_account_group": "TREASURY",          "reality_shield_default": false, "genome_simulation_exclude": true},
-    "53":    {"genome_account_group": "CASH",              "reality_shield_default": false, "genome_simulation_exclude": true},
-    "44571": {"genome_account_group": "TAX_COLLECTED",     "reality_shield_default": false, "genome_simulation_exclude": false},
-    "44566": {"genome_account_group": "TAX_DEDUCTIBLE",    "reality_shield_default": false, "genome_simulation_exclude": false},
-    "44551": {"genome_account_group": "TAX_TO_PAY",        "reality_shield_default": false, "genome_simulation_exclude": false},
-    "6411":  {"genome_account_group": "PAYROLL",           "reality_shield_default": false, "genome_simulation_exclude": false},
-    "6451":  {"genome_account_group": "SOCIAL_CHARGES",    "reality_shield_default": false, "genome_simulation_exclude": false},
-    "707":   {"genome_account_group": "REVENUE_TRADE",     "reality_shield_default": true,  "genome_simulation_exclude": false},
-    "706":   {"genome_account_group": "REVENUE_SERVICES",  "reality_shield_default": true,  "genome_simulation_exclude": false},
-    "701":   {"genome_account_group": "REVENUE_PRODUCTS",  "reality_shield_default": true,  "genome_simulation_exclude": false},
-    "607":   {"genome_account_group": "COGS_TRADE",        "reality_shield_default": false, "genome_simulation_exclude": false},
-    "601":   {"genome_account_group": "COGS_MATERIALS",    "reality_shield_default": false, "genome_simulation_exclude": false},
-    "641":   {"genome_account_group": "PAYROLL_GROSS",     "reality_shield_default": false, "genome_simulation_exclude": false},
-    "695":   {"genome_account_group": "INCOME_TAX",        "reality_shield_default": false, "genome_simulation_exclude": true},
-    "6811":  {"genome_account_group": "DEPRECIATION",      "reality_shield_default": false, "genome_simulation_exclude": false},
-    "416":   {"genome_account_group": "DOUBTFUL_CLIENTS",  "reality_shield_default": false, "genome_simulation_exclude": false},
-    "519":   {"genome_account_group": "BANK_OVERDRAFT",    "reality_shield_default": false, "genome_simulation_exclude": true}
+  "accounts": [
+    {
+      "code": "101",
+      "name": "Capital",
+      "account_type": "EQUITY",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "EQUITY_CORE",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "1011",
+      "name": "Capital souscrit - non appelé",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "1012",
+      "name": "Capital souscrit - appelé, non versé",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "1013",
+      "name": "Capital souscrit - appelé, versé",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "102",
+      "name": "Fonds fiduciaires",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "104",
+      "name": "Primes liées au capital",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "1041",
+      "name": "Primes d'émission",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "1042",
+      "name": "Primes de fusion",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "1043",
+      "name": "Primes d'apport",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "1044",
+      "name": "Primes de conversion d'obligations en actions",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "1045",
+      "name": "Bons de souscription de titres en capital",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "105",
+      "name": "Écarts de réévaluation",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "106",
+      "name": "Réserves",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "107",
+      "name": "Écart d'équivalence",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "108",
+      "name": "Compte de l'exploitant",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "109",
+      "name": "Actionnaires : capital souscrit - non appelé",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "110",
+      "name": "Report à nouveau - solde créditeur",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "119",
+      "name": "Report à nouveau - solde débiteur",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "120",
+      "name": "Résultat de l'exercice - bénéfice",
+      "account_type": "EQUITY",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "RESULT_PROFIT",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "129",
+      "name": "Résultat de l'exercice – perte",
+      "account_type": "EQUITY",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "RESULT_LOSS",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "131",
+      "name": "Subventions d'investissement octroyées",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "139",
+      "name": "Subventions d'investissement inscrites au compte de résultat",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "143",
+      "name": "Provisions réglementées pour hausse de prix",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "145",
+      "name": "Amortissements dérogatoires",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "148",
+      "name": "Autres provisions réglementées",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "151",
+      "name": "Provisions pour risques",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1511",
+      "name": "Provisions pour litiges",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1512",
+      "name": "Provisions pour garanties données aux clients",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1514",
+      "name": "Provisions pour amendes et pénalités",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1515",
+      "name": "Provisions pour pertes de change",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1516",
+      "name": "Provisions pour pertes sur contrats",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1518",
+      "name": "Autres provisions pour risques",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "152",
+      "name": "Provisions pour charges",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1521",
+      "name": "Provisions pour pensions et obligations similaires",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1522",
+      "name": "Provisions pour restructurations",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1523",
+      "name": "Provisions pour impôts",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1524",
+      "name": "Provisions pour renouvellement des immobilisations - entreprises concessionnaires",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1525",
+      "name": "Provisions pour gros entretien ou grandes révisions",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1526",
+      "name": "Provisions pour remise en état",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1527",
+      "name": "Autres provisions pour charges",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "161",
+      "name": "Emprunts obligataires convertibles si non-inscrits dans le compte 167",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1618",
+      "name": "Intérêts courus sur emprunts obligataires convertibles",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "162",
+      "name": "Obligations représentatives de passifs nets remis en fiducie si non-inscrites dans le compte 167",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "163",
+      "name": "Autres emprunts obligataires si non-inscrits dans le compte 167",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1638",
+      "name": "Intérêts courus sur autres emprunts obligataires",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "164",
+      "name": "Emprunts auprès des établissements de crédit si non-inscrits dans le compte 167",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1648",
+      "name": "Intérêts courus sur emprunts auprès des établissements de crédit",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "165",
+      "name": "Dépôts et cautionnements reçus",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1651",
+      "name": "Dépôts",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1655",
+      "name": "Cautionnements",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1658",
+      "name": "Intérêts courus sur dépôts et cautionnements reçus",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "166",
+      "name": "Participation des salariés aux résultats",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1661",
+      "name": "Comptes bloqués",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1662",
+      "name": "Fonds de participation",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1668",
+      "name": "Intérêts courus sur participation des salariés aux résultats",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "167",
+      "name": "Fonds non remboursables et avances conditionnées",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "168",
+      "name": "Autres emprunts et dettes assimilées",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1681",
+      "name": "Autres emprunts",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1682",
+      "name": "Emprunts participatifs",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1685",
+      "name": "Rentes viagères capitalisées",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1687",
+      "name": "Autres dettes",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "1688",
+      "name": "Intérêts courus sur autres emprunts et dettes assimilées",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "169",
+      "name": "Primes de remboursement des emprunts",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "171",
+      "name": "Dettes rattachées à des participations - groupe",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "174",
+      "name": "Dettes rattachées à des participations - hors groupe",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "178",
+      "name": "Dettes rattachées à des sociétés en participation",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "181",
+      "name": "Comptes de liaison des établissements",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "186",
+      "name": "Biens et prestations de services échangés entre établissements - charges",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "187",
+      "name": "Biens et prestations de services échangés entre établissements - produits",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "188",
+      "name": "Comptes de liaison des sociétés en participation",
+      "account_type": "LIABILITY",
+      "reconcile": false
+    },
+    {
+      "code": "201",
+      "name": "Frais d'établissement",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2011",
+      "name": "Frais de constitution",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2012",
+      "name": "Frais de premier établissement",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "203",
+      "name": "Frais de développement",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "205",
+      "name": "Concessions et droits similaires, brevets, licences, marques, procédés, solutions informatiques,",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "206",
+      "name": "Droit au bail",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "207",
+      "name": "Fonds commercial",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "208",
+      "name": "Autres immobilisations incorporelles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2081",
+      "name": "Mali de fusion sur actifs incorporels",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "211",
+      "name": "Terrains",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2111",
+      "name": "Terrains nus",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2112",
+      "name": "Terrains aménagés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2113",
+      "name": "Sous-sols et sur-sols",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2114",
+      "name": "Terrains de carrières",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2115",
+      "name": "Terrains bâtis",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "212",
+      "name": "Agencements et aménagements de terrains",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "213",
+      "name": "Constructions",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2131",
+      "name": "Bâtiments",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2135",
+      "name": "Installations générales - agencements - aménagements des constructions",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2138",
+      "name": "Ouvrages d'infrastructure",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "214",
+      "name": "Constructions sur sol d'autrui",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "215",
+      "name": "Installations techniques, matériels et outillages industriels",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2151",
+      "name": "Installations complexes spécialisées",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2153",
+      "name": "Installations à caractère spécifique",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2154",
+      "name": "Matériels industriels",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2155",
+      "name": "Outillages industriels",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2157",
+      "name": "Agencements et aménagements des matériels et outillages industriels",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "218",
+      "name": "Autres immobilisations corporelles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2181",
+      "name": "Installations générales, agencements, aménagements divers",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2182",
+      "name": "Matériel de transport",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2183",
+      "name": "Matériel de bureau et matériel informatique",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2184",
+      "name": "Mobilier",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2185",
+      "name": "Cheptel",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2186",
+      "name": "Emballages récupérables",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2187",
+      "name": "Mali de fusion sur actifs corporels",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "229",
+      "name": "Droits du concédant",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "231",
+      "name": "Immobilisations corporelles en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "232",
+      "name": "Immobilisations incorporelles en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "237",
+      "name": "Avances et acomptes versés sur commandes d'immobilisations incorporelles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "238",
+      "name": "Avances et acomptes versés sur commandes d'immobilisations corporelles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "261",
+      "name": "Titres de participation",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2611",
+      "name": "Actions",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2618",
+      "name": "Autres titres",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "262",
+      "name": "Titres évalués par équivalence",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "266",
+      "name": "Autres formes de participation",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2661",
+      "name": "Droits représentatifs d'actifs nets remis en fiducie",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "267",
+      "name": "Créances rattachées à des participations",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2671",
+      "name": "Créances rattachées à des participations - groupe",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2674",
+      "name": "Créances rattachées à des participations - hors groupe",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2675",
+      "name": "Versements représentatifs d'apports non capitalisés - appel de fonds",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2676",
+      "name": "Avances consolidables",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2677",
+      "name": "Autres créances rattachées à des participations",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2678",
+      "name": "Intérêts courus",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "268",
+      "name": "Créances rattachées à des sociétés en participation",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2681",
+      "name": "Principal",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2688",
+      "name": "Intérêts courus",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "269",
+      "name": "Versements restant à effectuer sur titres de participation non libérés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "271",
+      "name": "Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2711",
+      "name": "Actions",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2718",
+      "name": "Autres titres",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "272",
+      "name": "Titres immobilisés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2721",
+      "name": "Obligations",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2722",
+      "name": "Bons",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "273",
+      "name": "Titres immobilisés de l'activité de portefeuille",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "274",
+      "name": "Prêts",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2741",
+      "name": "Prêts participatifs",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2742",
+      "name": "Prêts aux associés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2743",
+      "name": "Prêts au personnel",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2748",
+      "name": "Autres prêts",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "275",
+      "name": "Dépôts et cautionnements versés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2751",
+      "name": "Dépôts",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "2755",
+      "name": "Cautionnements",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "276",
+      "name": "Autres créances immobilisées",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "277",
+      "name": "Actions propres ou parts propres",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "278",
+      "name": "Mali de fusion sur actifs financiers",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "279",
+      "name": "Versements restant à effectuer sur titres immobilisés non libérés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "280",
+      "name": "Amortissements des immobilisations incorporelles et des frais d’établissement (même ventilation",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "281",
+      "name": "Amortissements des immobilisations corporelles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "282",
+      "name": "Amortissements des immobilisations mises en concession",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "290",
+      "name": "Dépréciations des immobilisations incorporelles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "291",
+      "name": "Dépréciations des immobilisations corporelles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "292",
+      "name": "Dépréciations des immobilisations mises en concession",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "293",
+      "name": "Dépréciations des immobilisations en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "296",
+      "name": "Dépréciations des participations et créances rattachées à des participations",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "297",
+      "name": "Dépréciations des autres immobilisations financières",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "321",
+      "name": "Matières consommables",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "322",
+      "name": "Fournitures consommables",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3221",
+      "name": "Combustibles",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3222",
+      "name": "Produits d'entretien",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3223",
+      "name": "Fournitures d'atelier et d'usine",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3224",
+      "name": "Fournitures de magasin",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3225",
+      "name": "Fournitures de bureau",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "326",
+      "name": "Emballages",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3261",
+      "name": "Emballages perdus",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3265",
+      "name": "Emballages récupérables non identifiables",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3267",
+      "name": "Emballages à usage mixte",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "331",
+      "name": "Produits en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "335",
+      "name": "Travaux en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "341",
+      "name": "Études en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "345",
+      "name": "Prestations de services en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "351",
+      "name": "Produits intermédiaires",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "355",
+      "name": "Produits finis",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "358",
+      "name": "Produits résiduels ou matières de récupération",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3581",
+      "name": "Déchets",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3585",
+      "name": "Rebuts",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "3586",
+      "name": "Matières de récupération",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "391",
+      "name": "Dépréciations des matières premières et fournitures",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "392",
+      "name": "Dépréciations des autres approvisionnements",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "393",
+      "name": "Dépréciations des en-cours de production de biens",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "394",
+      "name": "Dépréciations des en-cours de production de services",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "395",
+      "name": "Dépréciations des stocks de produits",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "397",
+      "name": "Dépréciations des stocks de marchandises",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "401",
+      "name": "Fournisseurs",
+      "account_type": "PAYABLE",
+      "reconcile": true,
+      "genome_extension": {
+        "genome_account_group": "TRADE_PAYABLE",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "4011",
+      "name": "Fournisseurs - Achats de biens et prestations de services",
+      "account_type": "PAYABLE",
+      "reconcile": true,
+      "genome_extension": {
+        "genome_account_group": "TRADE_PAYABLE",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "4017",
+      "name": "Fournisseurs - Retenues de garantie",
+      "account_type": "PAYABLE",
+      "reconcile": true
+    },
+    {
+      "code": "403",
+      "name": "Fournisseurs - Effets à payer",
+      "account_type": "PAYABLE",
+      "reconcile": true
+    },
+    {
+      "code": "404",
+      "name": "Fournisseurs d'immobilisations",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4041",
+      "name": "Fournisseurs - Achats d'immobilisations",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4047",
+      "name": "Fournisseurs d'immobilisations - Retenues de garantie",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "405",
+      "name": "Fournisseurs d'immobilisations - Effets à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "408",
+      "name": "Fournisseurs - Factures non parvenues",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "409",
+      "name": "Fournisseurs débiteurs",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4098",
+      "name": "Rabais, remises, ristournes à obtenir et autres avoirs non encore reçus",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "411",
+      "name": "Clients",
+      "account_type": "RECEIVABLE",
+      "reconcile": true,
+      "genome_extension": {
+        "genome_account_group": "TRADE_RECEIVABLE",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "4111",
+      "name": "Clients - Ventes de biens ou de prestations de services",
+      "account_type": "RECEIVABLE",
+      "reconcile": true,
+      "genome_extension": {
+        "genome_account_group": "TRADE_RECEIVABLE",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "4117",
+      "name": "Clients - Retenues de garantie",
+      "account_type": "RECEIVABLE",
+      "reconcile": true
+    },
+    {
+      "code": "413",
+      "name": "Clients - Effets à recevoir",
+      "account_type": "RECEIVABLE",
+      "reconcile": true
+    },
+    {
+      "code": "416",
+      "name": "Clients douteux ou litigieux",
+      "account_type": "RECEIVABLE",
+      "reconcile": true,
+      "genome_extension": {
+        "genome_account_group": "DOUBTFUL_CLIENTS",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "418",
+      "name": "Clients - Produits non encore facturés",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4181",
+      "name": "Clients - Factures à établir",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4188",
+      "name": "Clients - Intérêts courus",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "419",
+      "name": "Clients créditeurs",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "421",
+      "name": "Personnel - Rémunérations dues",
+      "account_type": "PAYABLE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "PAYROLL_DUE",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "422",
+      "name": "Comité social et économique",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "424",
+      "name": "Participation des salariés aux résultats",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4246",
+      "name": "Réserve spéciale",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4248",
+      "name": "Comptes courants",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "425",
+      "name": "Personnel - Avances et acomptes et autres comptes débiteurs",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "426",
+      "name": "Personnel - Dépôts",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "427",
+      "name": "Personnel - Oppositions",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "428",
+      "name": "Personnel - Charges à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4282",
+      "name": "Dettes provisionnées pour congés à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4284",
+      "name": "Dettes provisionnées pour participation des salariés aux résultats",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4286",
+      "name": "Autres charges à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "431",
+      "name": "Sécurité sociale",
+      "account_type": "PAYABLE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "SOCIAL_SECURITY",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "437",
+      "name": "Autres organismes sociaux",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "438",
+      "name": "Organismes sociaux - Charges à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4382",
+      "name": "Charges sociales sur congés à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4386",
+      "name": "Autres charges à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "439",
+      "name": "Organismes sociaux - Produits à recevoir",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "441",
+      "name": "État - Subventions et aides à recevoir",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "442",
+      "name": "Contributions, impôts et taxes recouvrés pour le compte de l'État",
+      "account_type": "TAX",
+      "reconcile": false
+    },
+    {
+      "code": "4421",
+      "name": "Prélèvements à la source",
+      "account_type": "TAX",
+      "reconcile": false
+    },
+    {
+      "code": "4422",
+      "name": "Prélèvements forfaitaires non libératoires",
+      "account_type": "TAX",
+      "reconcile": false
+    },
+    {
+      "code": "4423",
+      "name": "Retenues et prélèvements sur les distributions",
+      "account_type": "TAX",
+      "reconcile": false
+    },
+    {
+      "code": "444",
+      "name": "État - Impôts sur les bénéfices",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "445",
+      "name": "État - Taxes sur le chiffre d'affaires",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4456",
+      "name": "Taxes sur le chiffre d'affaires déductibles",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44562",
+      "name": "TVA sur immobilisations",
+      "account_type": "PAYABLE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "TAX_DEDUCTIBLE_IMMO",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "44563",
+      "name": "TVA transférée par d'autres entités",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44566",
+      "name": "TVA sur autres biens et services",
+      "account_type": "PAYABLE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "TAX_DEDUCTIBLE",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "44567",
+      "name": "Crédit de TVA à reporter",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44568",
+      "name": "Taxes assimilées à la TVA",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4457",
+      "name": "Taxes sur le chiffre d'affaires collectées",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4458",
+      "name": "Taxes sur le chiffre d'affaires à régulariser ou en attente",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44581",
+      "name": "Acomptes - Régime simplifié d'imposition",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44583",
+      "name": "Remboursement de taxes sur le chiffre d'affaires demandé",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44584",
+      "name": "TVA récupérée d’avance",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44586",
+      "name": "Taxes sur le chiffre d’affaires sur factures non parvenues",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "44587",
+      "name": "Taxes sur le chiffre d’affaires sur factures à établir",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "446",
+      "name": "Obligations cautionnées",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "447",
+      "name": "Autres impôts, taxes et versements assimilés",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "448",
+      "name": "État - Charges à payer et produits à recevoir",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4482",
+      "name": "État - Produits à recevoir",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "449",
+      "name": "Quotas d’émission à acquérir",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "451",
+      "name": "Groupe",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "455",
+      "name": "Associés - Comptes courants",
+      "account_type": "PAYABLE",
+      "reconcile": true
+    },
+    {
+      "code": "4551",
+      "name": "Principal",
+      "account_type": "PAYABLE",
+      "reconcile": true
+    },
+    {
+      "code": "4558",
+      "name": "Intérêts courus",
+      "account_type": "PAYABLE",
+      "reconcile": true
+    },
+    {
+      "code": "456",
+      "name": "Associés - Opérations sur le capital",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "4561",
+      "name": "Associés - Comptes d'apport en société",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "4562",
+      "name": "Apporteurs - Capital appelé, non versé",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "4563",
+      "name": "Associés - Versements reçus sur augmentation de capital",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "4564",
+      "name": "Associés - Versements anticipés",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "4566",
+      "name": "Actionnaires défaillants",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "4567",
+      "name": "Associés - Capital à rembourser",
+      "account_type": "EQUITY",
+      "reconcile": false
+    },
+    {
+      "code": "457",
+      "name": "Associés - Dividendes à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "458",
+      "name": "Associés - Opérations faites en commun et en GIE",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4581",
+      "name": "Opérations courantes",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4588",
+      "name": "Intérêts courus",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "462",
+      "name": "Créances sur cessions d'immobilisations",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "464",
+      "name": "Dettes sur acquisitions de valeurs mobilières de placement",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "465",
+      "name": "Créances sur cessions de valeurs mobilières de placement",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "467",
+      "name": "Divers comptes débiteurs et produits à recevoir",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "468",
+      "name": "Divers comptes créditeurs et charges à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "474",
+      "name": "Différences d’évaluation – Actif",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4741",
+      "name": "Différences d'évaluation sur instruments financiers à terme - Actif",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4742",
+      "name": "Différences d'évaluation sur jetons détenus - Actif",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4746",
+      "name": "Différences d’évaluation de jetons sur des passifs - Actif",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "475",
+      "name": "Différences d’évaluation – Passif",
+      "account_type": "OTHER",
+      "reconcile": false
+    },
+    {
+      "code": "4751",
+      "name": "Différences d'évaluation sur instruments financiers à terme - Passif",
+      "account_type": "OTHER",
+      "reconcile": false
+    },
+    {
+      "code": "4752",
+      "name": "Différences d'évaluation sur jetons détenus - Passif",
+      "account_type": "OTHER",
+      "reconcile": false
+    },
+    {
+      "code": "4756",
+      "name": "Différences d’évaluation de jetons sur des passifs - Passif",
+      "account_type": "OTHER",
+      "reconcile": false
+    },
+    {
+      "code": "476",
+      "name": "Différence de conversion - Actif",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4761",
+      "name": "Diminution des créances",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4762",
+      "name": "Augmentation des dettes",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4768",
+      "name": "Différences compensées par couverture de change",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "477",
+      "name": "Différences de conversion - Passif",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4771",
+      "name": "Augmentation des créances",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4772",
+      "name": "Diminution des dettes",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4778",
+      "name": "Différences compensées par couverture de change",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "478",
+      "name": "Autres comptes transitoires",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4781",
+      "name": "Mali de fusion sur actif circulant",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "481",
+      "name": "Frais d’émission des emprunts",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "486",
+      "name": "Charges constatées d'avance",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "487",
+      "name": "Produits constatés d'avance",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "488",
+      "name": "Comptes de répartition périodique des charges et des produits",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "491",
+      "name": "Dépréciations des comptes de clients",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "495",
+      "name": "Dépréciations des comptes du groupe et des associés",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4951",
+      "name": "Comptes du groupe",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4955",
+      "name": "Comptes courants des associés",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4958",
+      "name": "Opérations faites en commun et en GIE",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "496",
+      "name": "Dépréciations des comptes de débiteurs divers",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4962",
+      "name": "Créances sur cessions d'immobilisations",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4965",
+      "name": "Créances sur cessions de valeurs mobilières de placement",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "4967",
+      "name": "Autres comptes débiteurs",
+      "account_type": "RECEIVABLE",
+      "reconcile": false
+    },
+    {
+      "code": "502",
+      "name": "Actions propres",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "503",
+      "name": "Actions",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5031",
+      "name": "Titres cotés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5035",
+      "name": "Titres non cotés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "504",
+      "name": "Autres titres conférant un droit de propriété",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "505",
+      "name": "Obligations et bons émis par la société et rachetés par elle",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "506",
+      "name": "Obligations",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5061",
+      "name": "Titres cotés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5065",
+      "name": "Titres non cotés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "507",
+      "name": "Bons du Trésor et bons de caisse à court terme",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "508",
+      "name": "Autres valeurs mobilières de placement et autres créances assimilées",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5081",
+      "name": "Autres valeurs mobilières",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5082",
+      "name": "Bons de souscription",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5088",
+      "name": "Intérêts courus sur obligations, bons et valeurs assimilés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "509",
+      "name": "Versements restant à effectuer sur valeurs mobilières de placement non libérées",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "511",
+      "name": "Valeurs à l'encaissement",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5111",
+      "name": "Coupons échus à l'encaissement",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5112",
+      "name": "Chèques à encaisser",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5113",
+      "name": "Effets à l'encaissement",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5114",
+      "name": "Effets à l'escompte",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "512",
+      "name": "Banques",
+      "account_type": "BANK",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "TREASURY",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": true
+      }
+    },
+    {
+      "code": "5121",
+      "name": "Comptes en euros",
+      "account_type": "BANK",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "TREASURY_EUR",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": true
+      }
+    },
+    {
+      "code": "5124",
+      "name": "Comptes en devises",
+      "account_type": "BANK",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "TREASURY_FX",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": true
+      }
+    },
+    {
+      "code": "517",
+      "name": "Autres organismes financiers",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "518",
+      "name": "Intérêts courus",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5181",
+      "name": "Intérêts courus à payer",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5188",
+      "name": "Intérêts courus à recevoir",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "519",
+      "name": "Concours bancaires courants",
+      "account_type": "BANK",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "BANK_OVERDRAFT",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": true
+      }
+    },
+    {
+      "code": "5191",
+      "name": "Crédit de mobilisation de créances commerciales",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5193",
+      "name": "Mobilisation de créances nées à l'étranger",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "5198",
+      "name": "Intérêts courus sur concours bancaires courants",
+      "account_type": "BANK",
+      "reconcile": false
+    },
+    {
+      "code": "521",
+      "name": "Instruments financiers à terme",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "522",
+      "name": "Jetons détenus",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "523",
+      "name": "Jetons auto-détenus",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "524",
+      "name": "Jetons empruntés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "590",
+      "name": "Dépréciations des valeurs mobilières de placement",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5903",
+      "name": "Actions",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5904",
+      "name": "Autres titres conférant un droit de propriété",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5906",
+      "name": "Obligations",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "5908",
+      "name": "Autres valeurs mobilières de placement et créances assimilées",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "601",
+      "name": "Achats stockés - Matières premières et fournitures",
+      "account_type": "EXPENSE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "COGS_MATERIALS",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "602",
+      "name": "Achats stockés - Autres approvisionnements",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6021",
+      "name": "Matières consommables",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6022",
+      "name": "Fournitures consommables",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6026",
+      "name": "Emballages",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "603",
+      "name": "Variation des stocks d'approvisionnements et de marchandises",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6031",
+      "name": "Variation des stocks de matières premières et fournitures",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6032",
+      "name": "Variation des stocks des autres approvisionnements",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6037",
+      "name": "Variation des stocks de marchandises",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "604",
+      "name": "Achats d'études et prestations de services",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "605",
+      "name": "Achats de matériel, équipements et travaux",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "606",
+      "name": "Achats non stockés de matière et fournitures",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6061",
+      "name": "Fournitures non stockables",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6063",
+      "name": "Fournitures d'entretien et de petit équipement",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6064",
+      "name": "Fournitures administratives",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6068",
+      "name": "Autres matières et fournitures",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "607",
+      "name": "Achats de marchandises",
+      "account_type": "EXPENSE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "COGS_TRADE",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "608",
+      "name": "(Compte réservé, le cas échéant, au regroupement des frais accessoires incorporés aux achats)",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "609",
+      "name": "Rabais, remises et ristournes obtenus sur achats",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6098",
+      "name": "Rabais, remises et ristournes non affectés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "611",
+      "name": "Sous-traitance générale",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "612",
+      "name": "Redevances de crédit-bail",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "613",
+      "name": "Locations",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6132",
+      "name": "Locations immobilières",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6135",
+      "name": "Locations mobilières",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "614",
+      "name": "Charges locatives et de copropriété",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "615",
+      "name": "Entretien et réparation",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6152",
+      "name": "Entretien et réparation sur biens immobiliers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6155",
+      "name": "Entretien et réparation sur biens mobiliers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6156",
+      "name": "Maintenance",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "616",
+      "name": "Primes d'assurances",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6161",
+      "name": "Multirisques",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6162",
+      "name": "Assurance obligatoire dommage construction",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6163",
+      "name": "Assurance - transport",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6164",
+      "name": "Risques d'exploitation",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6165",
+      "name": "Insolvabilité clients",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "617",
+      "name": "Études et recherches",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "618",
+      "name": "Divers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6181",
+      "name": "Documentation générale",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6183",
+      "name": "Documentation technique",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6185",
+      "name": "Frais de colloques, séminaires, conférences",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "619",
+      "name": "Rabais, remises et ristournes obtenus sur services extérieurs",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "621",
+      "name": "Personnel extérieur à l'entité",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6211",
+      "name": "Personnel intérimaire",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6214",
+      "name": "Personnel détaché ou prêté à l'entité",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "622",
+      "name": "Rémunérations d'intermédiaires et honoraires",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6221",
+      "name": "Commissions et courtages sur achats",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6222",
+      "name": "Commissions et courtages sur ventes",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6224",
+      "name": "Rémunérations des transitaires",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6225",
+      "name": "Rémunérations d'affacturage",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6226",
+      "name": "Honoraires",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6227",
+      "name": "Frais d'actes et de contentieux",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6228",
+      "name": "Divers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "623",
+      "name": "Publicité, publications, relations publiques",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6231",
+      "name": "Annonces et insertions",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6232",
+      "name": "Échantillons",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6233",
+      "name": "Foires et expositions",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6234",
+      "name": "Cadeaux à la clientèle",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6235",
+      "name": "Primes",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6236",
+      "name": "Catalogues et imprimés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6237",
+      "name": "Publications",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6238",
+      "name": "Divers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "624",
+      "name": "Transports de biens et transports collectifs du personnel",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6241",
+      "name": "Transports sur achats",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6242",
+      "name": "Transports sur ventes",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6243",
+      "name": "Transports entre établissements ou chantiers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6244",
+      "name": "Transports administratifs",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6247",
+      "name": "Transports collectifs du personnel",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6248",
+      "name": "Divers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "625",
+      "name": "Déplacements, missions et réceptions",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6251",
+      "name": "Voyages et déplacements",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6255",
+      "name": "Frais de déménagement",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6256",
+      "name": "Missions",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6257",
+      "name": "Réceptions",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "626",
+      "name": "Frais postaux et de télécommunications",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "627",
+      "name": "Services bancaires et assimilés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6271",
+      "name": "Frais sur titres",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6272",
+      "name": "Commissions et frais sur émission d'emprunts",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6275",
+      "name": "Frais sur effets",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6276",
+      "name": "Location de coffres",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6278",
+      "name": "Autres frais et commissions sur prestations de services",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "628",
+      "name": "Divers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6281",
+      "name": "Concours divers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6284",
+      "name": "Frais de recrutement de personnel",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "629",
+      "name": "Rabais, remises et ristournes obtenus sur autres services extérieurs",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "631",
+      "name": "Impôts, taxes et versements assimilés sur rémunérations",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6311",
+      "name": "Taxe sur les salaires",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6314",
+      "name": "Cotisation pour défaut d'investissement obligatoire dans la construction",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6318",
+      "name": "Autres",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "633",
+      "name": "Impôts, taxes et versements assimilés sur rémunérations",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6331",
+      "name": "Versement de transport",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6332",
+      "name": "Allocations logement",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6333",
+      "name": "Contribution unique des employeurs à la formation professionnelle",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6334",
+      "name": "Participation des employeurs à l'effort de construction",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6335",
+      "name": "Versements libératoires ouvrant droit à l'exonération de la taxe d'apprentissage",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6338",
+      "name": "Autres",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "635",
+      "name": "Autres impôts, taxes et versements assimilés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6351",
+      "name": "Impôts directs",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6352",
+      "name": "Taxe sur le chiffre d'affaires non récupérables",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6353",
+      "name": "Impôts indirects",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6354",
+      "name": "Droits d'enregistrement et de timbre",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6358",
+      "name": "Autres droits",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "637",
+      "name": "Autres impôts, taxes et versements assimilés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6371",
+      "name": "Contribution sociale de solidarité à la charge des sociétés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6372",
+      "name": "Taxes perçues par les organismes publics internationaux",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6374",
+      "name": "Impôts et taxes exigibles à l'étranger",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6378",
+      "name": "Taxes diverses",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "638",
+      "name": "Rappel d’impôts",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "641",
+      "name": "Rémunérations du personnel",
+      "account_type": "EXPENSE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "PAYROLL_GROSS",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "644",
+      "name": "Rémunération du travail de l'exploitant",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "645",
+      "name": "Cotisations de sécurité sociale et de prévoyance",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "646",
+      "name": "Cotisations sociales personnelles de l'exploitant",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "647",
+      "name": "Autres cotisations sociales",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6471",
+      "name": "Prestations directes",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6472",
+      "name": "Versements au comité social et économique",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6474",
+      "name": "Versements aux autres œuvres sociales",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6475",
+      "name": "Médecine du travail, pharmacie",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "648",
+      "name": "Autres charges de personnel",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "649",
+      "name": "Remboursements de charges de personnel",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "651",
+      "name": "Redevances pour concessions, brevets, licences, marques, procédés, solutions informatiques,",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6511",
+      "name": "Redevances pour concessions, brevets, licences, marques, procédés, solutions",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6516",
+      "name": "Droits d'auteur et de reproduction",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6518",
+      "name": "Autres droits et valeurs similaires",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "653",
+      "name": "Rémunérations de l’activité des administrateurs et des gérants",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "654",
+      "name": "Pertes sur créances irrécouvrables",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6541",
+      "name": "Créances de l'exercice",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6544",
+      "name": "Créances des exercices antérieurs",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "655",
+      "name": "Quote-part de résultat sur opérations faites en commun",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6551",
+      "name": "Quote-part de bénéfice transférée - comptabilité du gérant",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6555",
+      "name": "Quote-part de perte supportée - comptabilité des associés non gérants",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "656",
+      "name": "Pertes de change sur créances et dettes commerciales",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "657",
+      "name": "Valeurs comptables des immobilisations incorporelles et corporelles cédées",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "658",
+      "name": "Pénalités et autres charges",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6581",
+      "name": "Pénalités sur marchés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6582",
+      "name": "Pénalités, amendes fiscales et pénales",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6583",
+      "name": "Malis provenant de clauses d’indexation",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6584",
+      "name": "Lots",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6588",
+      "name": "Opérations de constitution ou liquidation des fiducies",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "661",
+      "name": "Charges d'intérêts",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6611",
+      "name": "Intérêts des emprunts et dettes",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6612",
+      "name": "Charges de la fiducie, résultat de la période",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6615",
+      "name": "Intérêts des comptes courants et des dépôts créditeurs",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6616",
+      "name": "Intérêts bancaires et sur opérations de financement",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6617",
+      "name": "Intérêts des obligations cautionnées",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6618",
+      "name": "Intérêts des autres dettes",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "664",
+      "name": "Pertes sur créances liées à des participations",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "665",
+      "name": "Escomptes accordés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "666",
+      "name": "Pertes de change financières",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "667",
+      "name": "Charges sur cession d’éléments financiers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "668",
+      "name": "Autres charges financières",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6683",
+      "name": "Mali provenant du rachat par l’entité d’actions et obligations émises par elle-même",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "672",
+      "name": "(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les charges sur exercices",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "678",
+      "name": "Autres charges exceptionnelles",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "681",
+      "name": "Dotations aux amortissements, aux dépréciations et aux provisions (à inscrire dans les charges",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6815",
+      "name": "Dotations aux provisions d'exploitation",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6816",
+      "name": "Dotations pour dépréciations des immobilisations incorporelles et corporelles",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6817",
+      "name": "Dotations pour dépréciations des actifs circulants",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "686",
+      "name": "Dotations aux amortissements, aux dépréciations et aux provisions (à inscrire dans les charges",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "687",
+      "name": "Dotations aux amortissements, aux dépréciations et aux provisions (à inscrire dans les charges",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6873",
+      "name": "Dotations aux provisions réglementées",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6874",
+      "name": "Dotations aux autres provisions réglementées",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6875",
+      "name": "Dotations aux provisions exceptionnelles",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6876",
+      "name": "Dotations pour dépréciations exceptionnelles",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "691",
+      "name": "Participation des salariés aux résultats",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "695",
+      "name": "Impôts sur les bénéfices",
+      "account_type": "EXPENSE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "INCOME_TAX",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": true
+      }
+    },
+    {
+      "code": "6951",
+      "name": "Impôts dus en France",
+      "account_type": "EXPENSE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "INCOME_TAX_FR",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": true
+      }
+    },
+    {
+      "code": "6952",
+      "name": "Contribution additionnelle à l'impôt sur les bénéfices",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "6954",
+      "name": "Impôts dus à l'étranger",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "696",
+      "name": "Suppléments d'impôt sur les sociétés liés aux distributions",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "698",
+      "name": "Intégration fiscale",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "699",
+      "name": "Produits - Reports en arrière des déficits",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "701",
+      "name": "Ventes de produits finis",
+      "account_type": "INCOME",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "REVENUE_PRODUCTS",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "702",
+      "name": "Ventes de produits intermédiaires",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "703",
+      "name": "Ventes de produits résiduels",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "704",
+      "name": "Travaux",
+      "account_type": "INCOME",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "REVENUE_WORKS",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "705",
+      "name": "Études",
+      "account_type": "INCOME",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "REVENUE_STUDIES",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "706",
+      "name": "Prestations de services",
+      "account_type": "INCOME",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "REVENUE_SERVICES",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "707",
+      "name": "Ventes de marchandises",
+      "account_type": "INCOME",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "REVENUE_TRADE",
+        "reality_shield_default": true,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "708",
+      "name": "Produits des activités annexes",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7081",
+      "name": "Produits des services exploités dans l'intérêt du personnel",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7082",
+      "name": "Commissions et courtages",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7083",
+      "name": "Locations diverses",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7084",
+      "name": "Mise à disposition de personnel facturée",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7085",
+      "name": "Ports et frais accessoires facturés",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7086",
+      "name": "Bonis sur reprises d'emballages consignés",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7087",
+      "name": "Bonifications obtenues des clients et primes sur ventes",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7088",
+      "name": "Autres produits d'activités annexes",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "709",
+      "name": "Rabais, remises et ristournes accordés",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "713",
+      "name": "Variation des stocks des en-cours de production et de produits",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7134",
+      "name": "Variation des en-cours de production de services",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7135",
+      "name": "Variation des stocks de produits",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "721",
+      "name": "Immobilisations incorporelles",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "722",
+      "name": "Immobilisations corporelles",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "741",
+      "name": "Subventions d’exploitation",
+      "account_type": "INCOME",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "SUBSIDIES",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
+      "code": "742",
+      "name": "Subventions d’équilibre",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "747",
+      "name": "Quote-part des subventions d’investissement virée au résultat de l’exercice",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "751",
+      "name": "Redevances pour concessions, brevets, licences, marques, procédés, solutions informatiques,",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7511",
+      "name": "Redevances pour concessions, brevets, licences, marques, procédés, solutions",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7516",
+      "name": "Droits d'auteur et de reproduction",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7518",
+      "name": "Autres droits et valeurs similaires",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "752",
+      "name": "Revenus des immeubles non affectés à des activités professionnelles",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "753",
+      "name": "Rémunérations de l’activité des administrateurs et des gérants",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "754",
+      "name": "Ristournes perçues des coopératives provenant des excédents",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "755",
+      "name": "Quote-part de résultat sur opérations faites en commun",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7551",
+      "name": "Quote-part de perte transférée - comptabilité du gérant",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7555",
+      "name": "Quote-part de bénéfice attribuée - comptabilité des associés non-gérants",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "756",
+      "name": "Gains de change sur créances et dettes commerciales",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "757",
+      "name": "Produits des cessions d’immobilisations incorporelles et corporelles",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "758",
+      "name": "Indemnités et autres produits",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7581",
+      "name": "Dédits et pénalités perçus sur achats et ventes",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7582",
+      "name": "Libéralités reçues",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7583",
+      "name": "Rentrées sur créances amorties",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7584",
+      "name": "Dégrèvements d’impôts autres qu’impôts sur les bénéfices",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7585",
+      "name": "Bonis provenant de clauses d’indexation",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7586",
+      "name": "Lots",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7587",
+      "name": "Indemnités d’assurance",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7588",
+      "name": "Opérations de constitution ou liquidation des fiducies",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "761",
+      "name": "Produits de participations",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7611",
+      "name": "Revenus des titres de participation",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7612",
+      "name": "Produits de la fiducie, résultat de la période",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7616",
+      "name": "Revenus sur autres formes de participation",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7617",
+      "name": "Revenus des créances rattachées à des participations",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "762",
+      "name": "Produits des autres immobilisations financières",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7621",
+      "name": "Revenus des titres immobilisés",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7626",
+      "name": "Revenus des prêts",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7627",
+      "name": "Revenus des créances immobilisées",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "763",
+      "name": "Revenus des autres créances",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7631",
+      "name": "Revenus des créances commerciales",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7638",
+      "name": "Revenus des créances diverses",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "764",
+      "name": "Revenus des valeurs mobilières de placement",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "765",
+      "name": "Escomptes obtenus",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "766",
+      "name": "Gains de change financiers",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "767",
+      "name": "Produits sur cession d’éléments financiers",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "768",
+      "name": "Autres produits financiers",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7683",
+      "name": "Bonis provenant du rachat par l’entreprise d’actions et d’obligations émises par elle-même",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "772",
+      "name": "(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les produits sur",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "778",
+      "name": "Autres produits exceptionnels",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "781",
+      "name": "Reprises sur amortissements, dépréciations et provisions (à inscrire dans les produits",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7815",
+      "name": "Reprises sur provisions d'exploitation",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7816",
+      "name": "Reprises sur dépréciations des immobilisations incorporelles et corporelles",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7817",
+      "name": "Reprises sur dépréciations des actifs circulants",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "786",
+      "name": "Reprises sur dépréciations et provisions",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "787",
+      "name": "Reprises sur dépréciations et provisions",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7873",
+      "name": "Reprises sur provisions réglementées",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7874",
+      "name": "Reprises sur autres provisions réglementées",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7875",
+      "name": "Reprises sur provisions exceptionnelles",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "7876",
+      "name": "Reprises sur dépréciations exceptionnelles",
+      "account_type": "INCOME",
+      "reconcile": false
+    }
+  ],
+  "genome_extensions_index": {
+    "101": {
+      "genome_account_group": "EQUITY_CORE",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "120": {
+      "genome_account_group": "RESULT_PROFIT",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "129": {
+      "genome_account_group": "RESULT_LOSS",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "401": {
+      "genome_account_group": "TRADE_PAYABLE",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "4011": {
+      "genome_account_group": "TRADE_PAYABLE",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "411": {
+      "genome_account_group": "TRADE_RECEIVABLE",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "4111": {
+      "genome_account_group": "TRADE_RECEIVABLE",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "416": {
+      "genome_account_group": "DOUBTFUL_CLIENTS",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "421": {
+      "genome_account_group": "PAYROLL_DUE",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "431": {
+      "genome_account_group": "SOCIAL_SECURITY",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "44551": {
+      "genome_account_group": "TAX_TO_PAY",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "44562": {
+      "genome_account_group": "TAX_DEDUCTIBLE_IMMO",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "44566": {
+      "genome_account_group": "TAX_DEDUCTIBLE",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "44571": {
+      "genome_account_group": "TAX_COLLECTED",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "512": {
+      "genome_account_group": "TREASURY",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": true
+    },
+    "5121": {
+      "genome_account_group": "TREASURY_EUR",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": true
+    },
+    "5124": {
+      "genome_account_group": "TREASURY_FX",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": true
+    },
+    "519": {
+      "genome_account_group": "BANK_OVERDRAFT",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": true
+    },
+    "53": {
+      "genome_account_group": "CASH",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": true
+    },
+    "601": {
+      "genome_account_group": "COGS_MATERIALS",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "607": {
+      "genome_account_group": "COGS_TRADE",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "641": {
+      "genome_account_group": "PAYROLL_GROSS",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "6411": {
+      "genome_account_group": "PAYROLL",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "6451": {
+      "genome_account_group": "SOCIAL_CHARGES",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "6811": {
+      "genome_account_group": "DEPRECIATION",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    },
+    "695": {
+      "genome_account_group": "INCOME_TAX",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": true
+    },
+    "6951": {
+      "genome_account_group": "INCOME_TAX_FR",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": true
+    },
+    "701": {
+      "genome_account_group": "REVENUE_PRODUCTS",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "704": {
+      "genome_account_group": "REVENUE_WORKS",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "705": {
+      "genome_account_group": "REVENUE_STUDIES",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "706": {
+      "genome_account_group": "REVENUE_SERVICES",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "707": {
+      "genome_account_group": "REVENUE_TRADE",
+      "reality_shield_default": true,
+      "genome_simulation_exclude": false
+    },
+    "741": {
+      "genome_account_group": "SUBSIDIES",
+      "reality_shield_default": false,
+      "genome_simulation_exclude": false
+    }
   }
 }
