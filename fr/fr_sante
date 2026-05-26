@@ -1,0 +1,75 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_SANTE",
+  "name": "Santé et médico-social",
+  "naf_codes": [
+    "86",
+    "87",
+    "88"
+  ],
+  "accounts": [
+    {
+      "code": "70600",
+      "name": "Actes médicaux et paramédicaux",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70610",
+      "name": "Consultations",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70620",
+      "name": "Actes techniques",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70630",
+      "name": "Forfaits journaliers",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "74840",
+      "name": "Dotations ARS / CPAM",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "60200",
+      "name": "Achats médicaments et produits pharmaceutiques",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "60210",
+      "name": "Achats dispositifs médicaux",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "21830",
+      "name": "Matériel médical",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "28183",
+      "name": "Amortissements matériel médical",
+      "account_type": "ASSET",
+      "reconcile": false
+    }
+  ]
+}
