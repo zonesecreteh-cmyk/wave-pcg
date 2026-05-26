@@ -1,0 +1,67 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_SPORT",
+  "name": "Sport et activités sportives",
+  "naf_codes": [
+    "93"
+  ],
+  "accounts": [
+    {
+      "code": "20500",
+      "name": "Indemnités de mutation de joueurs",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "28050",
+      "name": "Amortissements indemnités de mutation",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "75100",
+      "name": "Cotisations licenciés et adhérents",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70820",
+      "name": "Droits de retransmission TV",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70830",
+      "name": "Recettes billetterie",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70840",
+      "name": "Recettes sponsors et partenariats",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "65810",
+      "name": "Indemnités de mutation versées",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "64110",
+      "name": "Salaires sportifs professionnels",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    }
+  ]
+}
