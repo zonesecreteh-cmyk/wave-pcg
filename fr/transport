@@ -1,0 +1,76 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_TRANSPORT",
+  "name": "Transport et logistique",
+  "naf_codes": [
+    "49",
+    "50",
+    "51",
+    "52"
+  ],
+  "accounts": [
+    {
+      "code": "21820",
+      "name": "Véhicules de transport",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "28182",
+      "name": "Amortissements véhicules de transport",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "60610",
+      "name": "Carburants et lubrifiants",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "61510",
+      "name": "Entretien et réparation véhicules",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "61610",
+      "name": "Assurances véhicules",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "63514",
+      "name": "Taxe sur les véhicules (TVS/TVTS)",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "70410",
+      "name": "Recettes de transport — fret",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70420",
+      "name": "Recettes de transport — voyageurs",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70850",
+      "name": "Ports et frais de transport facturés",
+      "account_type": "INCOME",
+      "reconcile": false
+    }
+  ]
+}
