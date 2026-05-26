@@ -1557,6 +1557,17 @@
       "reconcile": false
     },
     {
+      "code": "44551",
+      "name": "Taxes sur le chiffre d'affaires à décaisser",
+      "account_type": "PAYABLE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "TAX_TO_PAY",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
+    },
+    {
       "code": "4456",
       "name": "Taxes sur le chiffre d'affaires déductibles",
       "account_type": "PAYABLE",
@@ -1607,6 +1618,17 @@
       "name": "Taxes sur le chiffre d'affaires collectées",
       "account_type": "PAYABLE",
       "reconcile": false
+    },
+    {
+      "code": "44571",
+      "name": "TVA collectée par l'entreprise",
+      "account_type": "PAYABLE",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "TAX_COLLECTED",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": false
+      }
     },
     {
       "code": "4458",
@@ -2185,6 +2207,17 @@
       "name": "Intérêts courus sur concours bancaires courants",
       "account_type": "BANK",
       "reconcile": false
+    },
+    {
+      "code": "53",
+      "name": "Caisse",
+      "account_type": "BANK",
+      "reconcile": false,
+      "genome_extension": {
+        "genome_account_group": "CASH",
+        "reality_shield_default": false,
+        "genome_simulation_exclude": true
+      }
     },
     {
       "code": "521",
