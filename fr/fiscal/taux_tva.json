@@ -1,0 +1,40 @@
+{
+  "version": "2026-01-01",
+  "source": "CGI Art. 278 et suivants — DGFiP",
+  "taux": {
+    "normal":        { "rate": 20.0, "account_vente": "44571", "account_achat": "44566" },
+    "intermediaire": { "rate": 10.0, "account_vente": "44571", "account_achat": "44566" },
+    "reduit":        { "rate": 5.5,  "account_vente": "44571", "account_achat": "44566" },
+    "super_reduit":  { "rate": 2.1,  "account_vente": "44571", "account_achat": "44566" },
+    "exonere":       { "rate": 0,    "account_vente": null,     "account_achat": null   }
+  },
+  "operations": {
+    "actes_medicaux":         { "taux": "exonere",       "motif": "CGI_261_4"   },
+    "honoraires_liberaux":    { "taux": "normal",        "motif": null          },
+    "honoraires_export":      { "taux": "exonere",       "motif": "EXPORT"      },
+    "restauration_repas":     { "taux": "intermediaire", "motif": null          },
+    "restauration_boisson":   { "taux": "normal",        "motif": null          },
+    "restauration_livraison": { "taux": "intermediaire", "motif": null          },
+    "produits_agricoles":     { "taux": "reduit",        "motif": null          },
+    "vente_medicament":       { "taux": "reduit",        "motif": null          },
+    "prothese_dentaire":      { "taux": "reduit",        "motif": null          },
+    "droits_auteur":          { "taux": "super_reduit",  "motif": null          },
+    "presse_abonnement":      { "taux": "super_reduit",  "motif": null          },
+    "travaux_renovation":     { "taux": "intermediaire", "motif": null          },
+    "construction_neuf":      { "taux": "normal",        "motif": null          },
+    "loyer_nu":               { "taux": "exonere",       "motif": "CGI_261_3"   },
+    "loyer_meuble":           { "taux": "exonere",       "motif": "CGI_261_3"   },
+    "formation_pro":          { "taux": "exonere",       "motif": "CGI_261_4_4" },
+    "cotisation_association": { "taux": "exonere",       "motif": "CGI_261_7"   },
+    "vente_saas":             { "taux": "normal",        "motif": null          },
+    "vente_marchandise":      { "taux": "normal",        "motif": null          },
+    "transport_voyageurs":    { "taux": "intermediaire", "motif": null          },
+    "transport_marchandises": { "taux": "normal",        "motif": null          },
+    "travaux_agricoles":      { "taux": "intermediaire", "motif": null          },
+    "vente_produit_fini":     { "taux": "normal",        "motif": null          },
+    "adhesion_sport":         { "taux": "exonere",       "motif": "CGI_261_7_1" },
+    "cours_sportif":          { "taux": "exonere",       "motif": "CGI_261_7_1" },
+    "vente_equipement_sport": { "taux": "normal",        "motif": null          },
+    "hors_champ_tva":         { "taux": "exonere",       "motif": null          }
+  }
+}

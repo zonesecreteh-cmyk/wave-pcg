@@ -1,0 +1,14 @@
+{
+  "version": "2026-01-01",
+  "source": "Code Général des Impôts (CGI)",
+  "exonerations": {
+    "CGI_261_3":   { "label": "Locations immobilières nues",               "base_legale": "CGI Art. 261 D 3°"        },
+    "CGI_261_4":   { "label": "Soins médicaux et paramédicaux",            "base_legale": "CGI Art. 261 4-1°"        },
+    "CGI_261_4_4": { "label": "Formation professionnelle continue",        "base_legale": "CGI Art. 261 4-4°"        },
+    "CGI_261_7":   { "label": "Organismes sans but lucratif",              "base_legale": "CGI Art. 261 7-1°"        },
+    "CGI_261_7_1": { "label": "Associations sportives agréées",            "base_legale": "CGI Art. 261 7-1° b"      },
+    "CGI_293_B":   { "label": "Franchise en base de TVA (< 37 500€)",     "base_legale": "CGI Art. 293 B"           },
+    "EXPORT":      { "label": "Exportation hors UE / livraison intracom",  "base_legale": "CGI Art. 262 I et II"     },
+    "AUTOLIQUID":  { "label": "Auto-liquidation TVA (sous-traitance BTP)", "base_legale": "CGI Art. 283-2 nonies"   }
+  }
+}

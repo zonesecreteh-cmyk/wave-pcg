@@ -1,0 +1,20 @@
+{
+  "version": "2026-01-01",
+  "source": "CGI + BOFiP",
+  "franchise_tva": {
+    "services":  { "seuil": 37500, "seuil_majore": 41250 },
+    "ventes":    { "seuil": 85000, "seuil_majore": 93500 },
+    "avocats":   { "seuil": 47700, "seuil_majore": 52800 },
+    "auteurs":   { "seuil": 47700, "seuil_majore": 52800 }
+  },
+  "micro_entreprise": {
+    "bic_ventes":   { "seuil": 188700 },
+    "bic_services": { "seuil": 77700  },
+    "bnc":          { "seuil": 77700  }
+  },
+  "tva_periodes": {
+    "mensuelle":     { "condition": "CA TVA > 15000€/an"   },
+    "trimestrielle": { "condition": "CA TVA <= 15000€/an"  },
+    "annuelle":      { "condition": "Régime simplifié"     }
+  }
+}

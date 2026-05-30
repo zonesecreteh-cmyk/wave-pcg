@@ -1,0 +1,25 @@
+{
+  "version": "2026-01-01",
+  "source": "CGI Art. 219",
+  "taux": {
+    "reduit": {
+      "rate": 15.0,
+      "plafond_benefice": 42500,
+      "condition": "CA < 10M€, capital libéré détenu à 75% par personnes physiques"
+    },
+    "normal": {
+      "rate": 25.0,
+      "plafond_benefice": null,
+      "condition": "Taux de droit commun"
+    }
+  },
+  "contribution_exceptionnelle": {
+    "active": true,
+    "base_legale": "Loi n°2025-127 du 14 février 2025",
+    "taux_tranche_1": 20.6,
+    "seuil_ca_tranche_1": 1000000000,
+    "taux_tranche_2": 41.2,
+    "seuil_ca_tranche_2": 3000000000,
+    "commentaire": "Contribution exceptionnelle grandes entreprises 2025"
+  }
+}
